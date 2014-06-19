@@ -16,8 +16,8 @@
     font-style: normal;
 }
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
-@import url('font-awesome.min.css');
 
+@import 'font-awesome';
 @import 'vars';
 @import 'mixins';
 
@@ -164,6 +164,7 @@
 			letter-spacing: -0.035em;
 			line-height: 1em;
 			font-family: 'Neon 80s';
+			text-transform: lowercase;
 		}
 		
 		p {
