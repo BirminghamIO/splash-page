@@ -79,7 +79,7 @@
 		@include vendor-property('backface-visibility', 'hidden');
 		@include vendor-property('transform', 'translate3d(0,0,0)');
 		background-color: #348cb2;
-		background-image: url('images/bg.png');
+		background-image: url('img/bg.png');
 		background-position: bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
@@ -101,7 +101,7 @@
 	#overlay {
 		@include vendor-property('animation', 'overlay #{$duration-overlay} #{$delay-overlay} forwards');
 		background-attachment: fixed, fixed;
-		background-image: url('images/overlay-pattern.png'), url('images/overlay.svg');
+		background-image: url('img/overlay-pattern.png'), url('img/overlay.svg');
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
