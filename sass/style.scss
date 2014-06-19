@@ -5,6 +5,16 @@
 */
 
 @charset 'UTF-8';
+@font-face {
+    font-family: 'Neon 80s';
+    src: url('/fonts/neon-webfont.eot');
+    src: url('/fonts/neon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/neon-webfont.woff') format('woff'),
+         url('/fonts/neon-webfont.ttf') format('truetype'),
+         url('/fonts/neon-webfont.svg#neon_80sregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
 @import url('font-awesome.min.css');
 
@@ -153,6 +163,7 @@
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
+			font-family: 'Neon 80s';
 		}
 		
 		p {
